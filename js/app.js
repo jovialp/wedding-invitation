@@ -7,7 +7,7 @@ import { audio } from "./audio.js";
 // import { pagination } from "./pagination.js";
 
 document.addEventListener("DOMContentLoaded", () => {
-  //   util.init();
+  util.init();
   audio.init();
   theme.check();
   // comment.init();

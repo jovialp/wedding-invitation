@@ -219,32 +219,32 @@ export const util = (() => {
 
     countDownDate();
 
-    if (storage("information").get("info")) {
-      document.getElementById("information")?.remove();
-    }
+    // if (storage("information").get("info")) {
+    //   document.getElementById("information")?.remove();
+    // }
 
-    if (!token || token.length === 0) {
-      document.getElementById("comment")?.remove();
-      document
-        .querySelector('a.nav-link[href="#comment"]')
-        ?.closest("li.nav-item")
-        ?.remove();
-      return;
-    }
+    // if (!token || token.length === 0) {
+    //   document.getElementById("comment")?.remove();
+    //   document
+    //     .querySelector('a.nav-link[href="#comment"]')
+    //     ?.closest("li.nav-item")
+    //     ?.remove();
+    //   return;
+    // }
 
-    const config = storage("config");
+    // const config = storage("config");
 
-    request(HTTP_GET, "/api/config")
-      .token(token)
-      .then((res) => {
-        for (let [key, value] of Object.entries(res.data)) {
-          config.set(key, value);
-        }
+    // request(HTTP_GET, "/api/config")
+    //   .token(token)
+    //   .then((res) => {
+    //     for (let [key, value] of Object.entries(res.data)) {
+    //       config.set(key, value);
+    //     }
 
-        comment.comment();
-      });
+    //     comment.comment();
+    //   });
 
-    storage("session").set("token", token);
+    // storage("session").set("token", token);
   };
 
   return {
