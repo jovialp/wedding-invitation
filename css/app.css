@@ -204,7 +204,7 @@ footer {
 * Custom style for color change
 */
 
-/* .bgCustom {
+.bgCustom {
   background-color: #EDDFE0 !important;
   background: #EDDFE0;
 }
@@ -221,9 +221,9 @@ footer {
 .color-theme-white {
   background-color: #EDDFE0;
   color: #F5F5F7;
-} */
+}
 
-body {
+/* body {
   background-image: url("../assets/images/bg.jpeg") !important;
   background-repeat: no-repeat, repeat !important;
   background-size: cover !important;
@@ -243,4 +243,4 @@ body * {
 
 .bg-light {
   --bs-bg-opacity: unset !important
-}
+} */
