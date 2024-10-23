@@ -198,3 +198,49 @@ footer {
   margin-left: auto;
   margin-right: auto;
 }
+
+
+/*
+* Custom style for color change
+*/
+
+/* .bgCustom {
+  background-color: #EDDFE0 !important;
+  background: #EDDFE0;
+}
+
+.bgCustomLight {
+  background-color: #F5F5F7 !important;
+  background: #F5F5F7;
+}
+
+.loading-page {
+  background-color: #EDDFE0 !important;
+}
+
+.color-theme-white {
+  background-color: #EDDFE0;
+  color: #F5F5F7;
+} */
+
+body {
+  background-image: url("../assets/images/bg.jpeg") !important;
+  background-repeat: no-repeat, repeat !important;
+  background-size: cover !important;
+}
+
+body * {
+  background: transparent !important;
+  background-color: transparent !important;
+}
+
+.loading-page {
+  background-image: url("../assets/images/bg.jpeg") !important; 
+  background-repeat: no-repeat, repeat !important;
+  background-size: cover !important;
+
+}
+
+.bg-light {
+  --bs-bg-opacity: unset !important
+}
