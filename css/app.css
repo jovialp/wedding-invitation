@@ -39,6 +39,12 @@ body {
   width: 100%;
 }
 
+.img-crop > .temp-class {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
 .btn-music {
   position: fixed;
   bottom: 9vh !important;
@@ -199,28 +205,27 @@ footer {
   margin-right: auto;
 }
 
-
 /*
 * Custom style for color change
 */
 
 .bgCustom {
-  background-color: #EDDFE0 !important;
-  background: #EDDFE0;
+  background-color: #eddfe0 !important;
+  background: #eddfe0;
 }
 
 .bgCustomLight {
-  background-color: #F5F5F7 !important;
-  background: #F5F5F7;
+  background-color: #f5f5f7 !important;
+  background: #f5f5f7;
 }
 
 .loading-page {
-  background-color: #EDDFE0 !important;
+  background-color: #eddfe0 !important;
 }
 
 .color-theme-white {
-  background-color: #EDDFE0;
-  color: #F5F5F7;
+  background-color: #eddfe0;
+  color: #f5f5f7;
 }
 
 /* body {
